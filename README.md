@@ -44,20 +44,21 @@ It allows text commands to be defined and structured quickly, with support for s
 
 The system was first developed in C#, and later reimplemented in C++.
 
-Source code and documentation (C#): [https://github.com/CorneliusRior/CCRepl](https://github.com/CorneliusRior/CCRepl)
+Source code and documentation: 
+- C#: [https://github.com/CorneliusRior/CCRepl](https://github.com/CorneliusRior/CCRepl)
+- C++ [https://github.com/CorneliusRior/CCRepl-CPP](https://github.com/CorneliusRior/CCRepl-CPP)
 
 ![Screenshot of the "help" screen in the sample program "ReadingList", C#](Images/ReadingListHelp.png)
 
 ### Features
 - Hierarchical command structure with aliases.
 - Automatic command registration and built-in help functions.
-- Argument parsing and validation.
+- Automatic argument parsing, prompting and validation.
 - Script execution using JSON-based scripts (C#).
 
 ### Technical details
 - Designed as a reusable library for quickly developing command-driven tools, and early-stage project back-end development.
 - Modular architecture separating command definitions from execution logic.
-- The C++ version extends original design with features such as automatic argument prompting, automatic generation of usage statements, and command options.
 
 ### Notes
 This system was originally developed as a component of [MacroTrack](#macrotrack), and later separated into a standalone library. It was designed to make the development of dynamic REPL systems as quick and efficient as possible.
