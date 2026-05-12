@@ -46,7 +46,7 @@ The system was first developed in C#, and later reimplemented in C++.
 
 Source code and documentation: 
 - C#: [https://github.com/CorneliusRior/CCRepl](https://github.com/CorneliusRior/CCRepl)
-- C++ [https://github.com/CorneliusRior/CCRepl-CPP](https://github.com/CorneliusRior/CCRepl-CPP)
+- C++: [https://github.com/CorneliusRior/CCRepl-CPP](https://github.com/CorneliusRior/CCRepl-CPP)
 
 ![Screenshot of the "help" screen in the sample program "ReadingList", C#](Images/ReadingListHelp.png)
 
